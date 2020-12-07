@@ -2,12 +2,12 @@
 
 for item in range(99):
     if (((item + 1) % 3) + (((item + 1) % 5)) == 0) and item > 0:
-        print ((item + 1), "FooBaa")
+        print ( "FooBaa")
     else:
         if (((item + 1) % 3) == 0):
-            print ((item + 1), "Foo")
+            print ("Foo")
         else:
             if (((item + 1) % 5) == 0):
-                print ((item + 1), "Baa")
+                print ("Baa")
             else:
                 print ((item + 1))
